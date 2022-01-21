@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="导论作业.css">
+    <title>计导大作业</title>
+</head>
+<body>
+    <div class="name">
+        <p class="classname">2021秋季《计算机科学与技术导论》· 期末大作业</p>
+        <p class="myid">2204112375&nbsp&nbsp&nbsp&nbsp计算机004班&nbsp&nbsp&nbsp&nbsp马少轩</p>
+    </div>
+    <div class="container_xia">
+        <div class="kuangzi">
+            <div class="position">
+            <div id="opportu1" onclick="oppo_1()" onmouseenter="changecolor1()"onmouseleave="changecolor11()"><p id="aspect1">课程关系图</p></div>
+            <div id="clehere1"></div>
+            <div id="opportu2" onclick="oppo_2()" onmouseenter="changecolor2()"onmouseleave="changecolor22()"><p id="aspect2">参考资料</p></div>
+            <div id="clehere2"></div>
+            <div id="opportu3" onclick="oppo_3()" onmouseenter="changecolor3()"onmouseleave="changecolor33()"><p id="aspect3">专业认识</p></div>
+            <div id="clehere3"></div>
+            <div id="opportu4" onclick="oppo_4()" onmouseenter="changecolor4()"onmouseleave="changecolor44()"><p id="aspect4">学业规划</p></div>
+            <div id="clehere4"></div>
+            </div>
+        </div>
+        <div id="aspects_1">
+            <div class="picture"><img src="image/关系图.png" alt="学科关系图.png"></div>
+        </div>
+        <div id="aspects_2">
+            <div class="relevant">
+                <p>1、数据结构与算法：</p>
+                <a href="https://www.cs.auckland.ac.nz/software/AlgAnim/ds_ToC.html" target="_blank">数据结构和算法：目录 (auckland.ac.nz)</a>
+                <br>
+                <br>
+                <p>2、计算机组成原理：</p>
+                <a href="https://en.wikibooks.org/wiki/IB/Group_4/Computer_Science/Computer_Organisation" target="_blank">计算机组织 - 维基教科书，自由的书籍 (wikibooks.org)</a>
+                <br>
+                <br>
+                <p>3、数据库：</p>
+                <a href="https://en.wikipedia.org/wiki/Database" target="_blank">数据库 - 维基百科，自由的百科全书 (wikipedia.org)</a>
+                <br>
+                <a href="https://archive.org/details/introductiontoda0000date/page/n9/mode/2up" target="_blank">数据库系统简介 ： 日期， C. J ： 免费下载， 借用， 和 流媒体 ： 互联网档案 (archive.org)</a>
+                <br>
+                <br>
+                <p>4、操作系统原理：</p>
+                <a href="https://github.com/hoverwinter/HIT-OSLab" target="_blank">GitHub - hoverwinter/HIT-OSLab: S - 哈工大《操作系统》实验</a>
+                <br>
+                <a href="https://www.icourse163.org/course/XJTU-1003409001?from=searchPage" target="_blank">操作系统原理_西安交通大学_中国大学MOOC(慕课) (icourse163.org)</a>
+
+            </div>
+        </div>
+        <div id="aspects_3">
+            <div class="acquaint">
+                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp计算机专业是近十年以来最热门的专业之一，然而在考生们蜂拥而至的同时，殊不知计算机类的专业有计算机科学与技术、软件工程、网络工程、物联网工程、数字媒体技术等。作为计算机科学与技术专业的一名大二学生，我在此谈一下对这个专业的认识。</p>
+                <div class="center">
+                    <img src="image/计算机类.png" alt="计算机类.png">
+                </div>
+                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp计算机科学与技术（Computer science）是一个兼顾软件与硬件的专业。硬件方面，例如，通过对计算机组成原理和操作系统原理的学习，可以学习嵌入式系统开发等；软件方面范围较广，有软件工程的软件开发，网络安全，数字动画，数据库等。</p>
+                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp十年前甚至五年前的计算机行业相关产品已渐渐无法满足人们的需求，因此从业人员不断向尖端处研究，例如人工智能、物联网等。而学习这门专业，最需要考察我们的逻辑能力和数学能力。越向尖端处研究，越需要高超的数学能力。</p>
+                <div class="center">
+                <img src="image/专业认识2.png" alt="专业认识2.png">
+                </div>
+                <br>
+                <br>
+            </div>
+        </div>
+        <div id="aspects_4">
+            <div class="plan1_0">
+                <br>
+                
+                <p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp本科四年努力学习公共课基础知识和计算机专业知识，争取能够保研或考研升学深造，研究生阶段进行人工智能方向的研究，争取能够获得出国交流的机会。</p>
+                <br>
+                <div class="center">
+                    <img src="image/深造学校.jpg" alt="深造学校.jpg">
+                </div>
+                <br>
+                <br>
+            </div>
+            
+        </div>
+    </div>
+    <script>
+        function oppo_1(){
+            document.getElementById("aspect1").style.color='#6aa2e4';
+            document.getElementById("opportu1").style.background='white';
+            document.getElementById("clehere1").style.display='block';
+            document.getElementById("aspect2").style.color='#333333';
+            document.getElementById("opportu2").style.background='#fafafa';
+            document.getElementById("clehere2").style.display='none';
+            document.getElementById("aspect3").style.color='#333333';
+            document.getElementById("opportu3").style.background='#fafafa';
+            document.getElementById("clehere3").style.display='none';
+            document.getElementById("aspect4").style.color='#333333';
+            document.getElementById("opportu4").style.background='#fafafa';
+            document.getElementById("clehere4").style.display='none';
+            document.getElementById("aspects_1").style.display='block';
+            document.getElementById("aspects_2").style.display='none';
+            document.getElementById("aspects_3").style.display='none';
+            document.getElementById("aspects_4").style.display='none';
+            
+        }
+        function oppo_2(){
+            document.getElementById("aspect2").style.color='#6aa2e4';
+            document.getElementById("opportu2").style.background='white';
+            document.getElementById("clehere2").style.display='block';
+            document.getElementById("aspect1").style.color='#333333';
+            document.getElementById("opportu1").style.background='#fafafa';
+            document.getElementById("clehere1").style.display='none';
+            document.getElementById("aspect3").style.color='#333333';
+            document.getElementById("opportu3").style.background='#fafafa';
+            document.getElementById("clehere3").style.display='none';
+            document.getElementById("aspect4").style.color='#333333';
+            document.getElementById("opportu4").style.background='#fafafa';
+            document.getElementById("clehere4").style.display='none';
+            document.getElementById("aspects_2").style.display='block';
+            document.getElementById("aspects_1").style.display='none';
+            document.getElementById("aspects_3").style.display='none';
+            document.getElementById("aspects_4").style.display='none';
+            
+        }
+        function oppo_3(){
+            document.getElementById("aspect3").style.color='#6aa2e4';
+            document.getElementById("opportu3").style.background='white';
+            document.getElementById("clehere3").style.display='block';
+            document.getElementById("aspect2").style.color='#333333';
+            document.getElementById("opportu2").style.background='#fafafa';
+            document.getElementById("clehere2").style.display='none';
+            document.getElementById("aspect1").style.color='#333333';
+            document.getElementById("opportu1").style.background='#fafafa';
+            document.getElementById("clehere1").style.display='none';
+            document.getElementById("aspect4").style.color='#333333';
+            document.getElementById("opportu4").style.background='#fafafa';
+            document.getElementById("clehere4").style.display='none';
+            document.getElementById("aspects_3").style.display='block';
+            document.getElementById("aspects_2").style.display='none';
+            document.getElementById("aspects_1").style.display='none';
+            document.getElementById("aspects_4").style.display='none';
+            
+        }
+        function oppo_4(){
+            document.getElementById("aspect4").style.color='#6aa2e4';
+            document.getElementById("opportu4").style.background='white';
+            document.getElementById("clehere4").style.display='block';
+            document.getElementById("aspect2").style.color='#333333';
+            document.getElementById("opportu2").style.background='#fafafa';
+            document.getElementById("clehere2").style.display='none';
+            document.getElementById("aspect3").style.color='#333333';
+            document.getElementById("opportu3").style.background='#fafafa';
+            document.getElementById("clehere3").style.display='none';
+            document.getElementById("aspect1").style.color='#333333';
+            document.getElementById("opportu1").style.background='#fafafa';
+            document.getElementById("clehere1").style.display='none';
+            document.getElementById("aspects_4").style.display='block';
+            document.getElementById("aspects_2").style.display='none';
+            document.getElementById("aspects_3").style.display='none';
+            document.getElementById("aspects_1").style.display='none';
+            
+        }
+        function changecolor1(){
+            document.getElementById("opportu1").style.color='#6aa2e4';
+        }
+        function changecolor11(){
+            document.getElementById("opportu1").style.color='#333333';
+        }
+        function changecolor2(){
+            document.getElementById("opportu2").style.color='#6aa2e4';
+        }
+        function changecolor22(){
+            document.getElementById("opportu2").style.color='#333333';
+            
+        }
+        function changecolor3(){
+            document.getElementById("opportu3").style.color='#6aa2e4';
+        }
+        function changecolor33(){
+            document.getElementById("opportu3").style.color='#333333';
+            
+        }
+        function changecolor4(){
+            document.getElementById("opportu4").style.color='#6aa2e4';
+        }
+        function changecolor44(){
+            document.getElementById("opportu4").style.color='#333333';
+            
+        }
+    </script>
+
+</body>
+</html>

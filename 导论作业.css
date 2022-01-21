@@ -1,0 +1,257 @@
+html{
+    width:100%;
+    height: auto;
+    
+}
+body{
+    width:100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.name{
+    background-color: #2AADFF;
+    color: aliceblue;
+    width:100%;
+    height:5rem;
+    position:absolute;
+    top:.625rem;
+    /* opacity: 0; */
+}
+.classname{
+    width:100%;
+    position: relative;
+    font-weight: 600;
+    font-size: larger;
+    text-align: center;
+    margin: 0.825rem;
+}
+.myid{
+    width:100%;
+    position: relative;
+    text-align: center;
+    margin: 0.825rem;
+}
+/*导航*/
+.container_xia{
+    position: relative;
+    top:5.6rem;
+    
+}
+.kuangzi{
+    width:100%;
+    height:2.5rem;
+    background-color:#fafafa;
+    position: absolute;
+    top:0rem;
+    user-select: none;
+}
+#opportu1{
+    width:3.5rem;
+    height:2.5rem;
+    background-color: white;
+    padding: 0 1.125rem;
+    color:#6aa2e4;
+    font-size:14px;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+}
+#opportu1:hover{
+    color:#6aa2e4;
+}
+#clehere1{
+    width:5.75rem;
+    height:0.2rem;
+    background-color: #6aa2e4;
+    position: absolute;
+    top:0;
+    left:0rem;
+    animation: wrapper-gradient 0.2s linear;
+    overflow: hidden;
+}
+@keyframes wrapper-gradient {
+    0% {
+      height:0
+    }
+    100% {
+      height:0.2rem;
+    }
+  }
+#opportu2{
+    width:3.5rem;
+    height:2.5rem;
+    padding: 0 1.125rem;
+    color:#333333;
+    font-size:14px;
+    text-align: center;
+    line-height: 2.5rem;
+    position: absolute;
+    top:0;
+    left:5.75rem;
+    cursor: pointer;
+}
+#opportu2:hover{
+    color: #6aa2e4;
+    
+}
+#aspect1{
+    position: absolute;
+    left: 0.55rem;
+    top:-0.9rem;
+}
+#aspect2{
+    position: absolute;
+    top:-0.9rem;
+}
+#aspect3{position: absolute;
+    top:-0.9rem;}
+#aspect4{position: absolute;
+    top:-0.9rem;}
+#clehere2{
+    width:5.75rem;
+    height:0.2rem;
+    background-color: #6aa2e4;
+    position: absolute;
+    top:0;
+    left:5.75rem;
+    display: none;
+    animation: wrapper-gradient 0.2s linear;
+}
+@keyframes wrapper-gradient {
+    0% {
+      height:0;
+    }
+    100% {
+      height:0.2rem;
+    }
+  }
+#opportu3{
+    width:3.5rem;
+    height:2.5rem;
+    padding: 0 1.125rem;
+    color:#333333;
+    font-size:14px;
+    text-align: center;
+    line-height: 2.5rem;
+    position: absolute;
+    top:0;
+    left:11.5rem;
+    cursor: pointer;
+}
+#opportu3:hover{
+    color:#6aa2e4;
+}
+#clehere3{
+    width:5.75rem;
+    height:0.2rem;
+    background-color: #6aa2e4;
+    position: absolute;
+    top:0;
+    left:11.5rem;
+    display: none;
+    animation: wrapper-gradient 0.2s linear;
+}
+@keyframes wrapper-gradient {
+    0% {
+      height:0;
+    }
+    100% {
+      height:0.2rem;
+    }
+  }
+  #opportu4{
+    width:3.5rem;
+    height:2.5rem;
+    padding: 0 1.125rem;
+    color:#333333;
+    font-size:14px;
+    text-align: center;
+    line-height: 2.5rem;
+    cursor: pointer;
+    position: absolute;
+    top:0;
+    left:17.25rem;
+}
+#opportu4:hover{
+    color:#6aa2e4;
+}
+#clehere4{
+    width:5.75rem;
+    height:0.2rem;
+    background-color: #6aa2e4;
+    position: absolute;
+    top:0;
+    left:17.25rem;
+    animation: wrapper-gradient 0.2s linear;
+    overflow: hidden;
+    display: none;
+}
+@keyframes wrapper-gradient {
+    0% {
+      height:0
+    }
+    100% {
+      height:0.2rem;
+    }
+  }
+#aspects_1{
+    width:100%;
+    height:31.25rem;
+    position: absolute;
+    top:3.7rem;
+
+}
+#aspects_2{
+    width:100%;
+    height:31.25rem;
+    position: absolute;
+    top:3.7rem;
+    display: none;
+}
+#aspects_3{
+    width:100%;
+    height:31.25rem;
+    position: absolute;
+    top:3.7rem;
+    display: none;
+    color: #4472C5;
+}
+#aspects_4{
+    width:100%;
+    height:31.25rem;
+    position: absolute;
+    top:3.7rem;
+    display: none;
+    color: #4472C5;
+}
+.position{
+    width:23rem;
+    margin: 0 0 0 0;
+    padding: 0;
+    text-align: center;
+    
+}
+.picture{
+    text-align: center;
+}
+.relevant{
+    width: 80%;
+    left: 20%;
+    position: relative;
+}
+.acquaint{
+    width:70%;
+    left:15%;
+    position: relative;
+}
+.center{
+    width:100%;
+    position: relative;
+    text-align: center;
+}
+.plan1_0{
+    width:70%;
+    left:15%;
+    position: relative;
+}
